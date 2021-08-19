@@ -1,6 +1,6 @@
 <h1 align='center'>Python Pong Game</h1>
 <h2>💡 Project Overview</h2>
-<p>Pong game in Python
+<p>Pong Game in Python
 
 </p>
 <h2>⚙️ List of Technology Used</h2>
