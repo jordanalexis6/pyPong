@@ -34,6 +34,15 @@ ball.color("red")
 ball.penup()
 ball.goto(0, 0)
 
+# Functions
+
+
+def paddle_a_up():
+    y = paddle_a.ycor()
+    y += 20
+    paddle_a.sety(y)
+
+
 # main game loop
 while True:
     wn.update()
