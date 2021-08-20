@@ -90,6 +90,10 @@ while True:
         ball.dy *= -1
 
     # left & right
-        if ball.xcor() > 350:
-            ball.goto(0, 0)
-            ball.dx *= -1
+    if ball.xcor() > 350:
+        ball.goto(0, 0)
+        ball.dx *= -1
+
+    elif ball.xcor() < -350:
+        ball.goto(0, 0)
+        ball.dx *= -1
