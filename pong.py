@@ -104,6 +104,7 @@ while True:
     if ball.ycor() < -290:
         ball.sety(-290)
         ball.dy *= -1
+        os.system("afplay bounce.wav&")
 
     # left & right
     if ball.xcor() > 390:
