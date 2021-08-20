@@ -55,6 +55,12 @@ def paddle_b_up():
     paddle_b.sety(y)
 
 
+def paddle_b_down():
+    y = paddle_b.ycor()
+    y -= 20
+    paddle_b.sety(y)
+
+
 # Keyboard bindings
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
