@@ -1,5 +1,6 @@
 # imports
 import turtle
+import os
 
 # window
 wn = turtle.Screen()
