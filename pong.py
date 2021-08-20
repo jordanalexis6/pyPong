@@ -103,6 +103,7 @@ while True:
     elif ball.ycor() < -290:
         ball.sety(-290)
         ball.dy *= -1
+        score_a += 1
 
     # left & right
     if ball.xcor() > 350:
