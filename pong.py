@@ -34,7 +34,7 @@ ball.color("red")
 ball.penup()
 ball.goto(0, 0)
 
-# Functions
+# functions
 
 
 def paddle_a_up():
@@ -61,11 +61,12 @@ def paddle_b_down():
     paddle_b.sety(y)
 
 
-# Keyboard bindings
+# keyboard bindings
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
 wn.onkeypress(paddle_a_down, "s")
-wn.onkeypress(paddle_a_up, "Up")
+wn.onkeypress(paddle_b_up, "Up")
+wn.onkeypress(paddle_b_down, "Down")
 
 # main game loop
 while True:
