@@ -43,6 +43,10 @@ def paddle_a_up():
     paddle_a.sety(y)
 
 
+# Keyboard bindings
+wn.listen()
+wn.onkeypress(paddle_a_up, "w")
+
 # main game loop
 while True:
     wn.update()
